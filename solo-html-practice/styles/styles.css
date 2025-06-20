@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #be0606df;
+}
+
+h1 {
+  font-size: 5rem;
+  inline-size: 100%;
+  text-align: center;
+  margin-inline: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 10px rgb(223, 55, 55);
+  background-color: black;
+  /*background-size: 20px, auto; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.papas-logo {
+  height: 75px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+nav {
+  height: 100px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.cheese-pull {
+  inline-size: 50rem;
+}

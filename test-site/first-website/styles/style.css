@@ -1,0 +1,168 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: 'Monteserrat', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #340707;
+}
+/*
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+p {
+  color: #ffffff;
+}
+li {
+  color: #ffffff;
+} 
+*/
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #340707;
+  color: #ffffff;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #ffffff;
+  text-shadow: 3px 3px 10px rgb(223, 55, 55);
+}
+
+h2 {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(223, 55, 55);
+}
+
+h3 {
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(223, 55, 55);
+}
+
+/*
+.papas-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+*/
+.pizza-burn {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*
+.lg-sq-pep-pin {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.lg-rd-pep-oreg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+*/
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.logo-row img {
+  height: 200px;
+  width: 200px;
+}
+
+.lg-rd-pep-oreg {
+  height: 60px;
+  order: 1;
+}
+
+.lg-sq-pep-pin {
+  height: 60px;
+  order: 3;
+}
+
+.papas-logo {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  order: 2;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(223, 55, 55);
+  text-align: center;
+  background-color: #16a337;
+  background-size: contain;
+}
+
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.days-of-week {
+  background-color: #16a337;
+  color: #ffffff;
+}
+
+.daily-hours {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.username-button {
+  display: block;
+  width: 25%;
+  background-color: #dd0e34;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.username-button:hover {
+  background-color: #a00a26;
+}
